@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MMA Digital</title>
+        <link rel="icon" href="/Ste-lete/src/assets/Logo.png" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <!-- style="background-image: url('./assets/svg_background.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;" -->
+    <body class="tracking-wider">
+        <!-- Header -->
+        <nav class="relative container mx-auto p-6 items-center">
+            <div class="flex items-center justify-between">
+                <!-- logo -->
+                <div class="pt-2 md:flex md:space-x-3 md:items-center">
+                    <img src="/assets/favicon-32x32.png" alt="" />
+                    <h1 class="hidden md:flex text-2xl text-black">MMA Digital</h1>
+                </div>
+
+                <!-- Hamburger Icon -->
+
+                <button
+                    id="menu-btn"
+                    class="block hamburger md:hidden focus:outline-none"
+                >
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+
+                <!-- items -->
+                <div class="hidden md:flex space-x-4 items-center">
+                    <a class=" text-black hover:text-gray-500 md:flex space-x-3 items-center" href="https://www.linkedin.com/in/mma-digital-8a8465263/">
+                        LinkedIn
+                        <img class="md:pl-1 h-2" src="/Ste-lete/src/assets/down-filled-triangular-arrow.png" />
+                    </a>
+                    <a class="text-black hover:text-gray-500 md:flex space-x-3 items-center" href="#contact">
+                        Instagram
+                        <img class="md:pl-1 h-2" src="/Ste-lete/src/assets/down-filled-triangular-arrow.png" />
+                    </a>
+                    <a class="text-black hover:text-gray-500 md:flex space-x-3 items-center" href="#contact">
+                        Tiktok
+                        <img class="md:pl-1 h-2" src="/Ste-lete/src/assets/down-filled-triangular-arrow.png" />
+                    </a>
+                </div>
+
+                <div class="hidden md:flex space-x-4 items-center">
+                    <a class="text-black hover:text-gray-500 md:flex space-x-3 items-center" href="https://calendly.com/mmadigital/30min">
+                        Schedule a Meeting
+                    </a>
+                </div>
+
+            </div>
+            
+            
+
+            <!-- Mobile Menu -->
+            <div class="md:hidden">
+                <div
+                id="menu"
+                class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+                >
+                <a href="https://www.linkedin.com/in/mma-digital-8a8465263/">LinkedIn</a>
+                <a href="https://calendly.com/mmadigital/30min">Schedule a Meeting</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+        <!-- Hero Part-->
+
+        <section>
+            <div
+                class="container flex flex-col-reverse items-center justify-center py-16 px-24 mx-auto mt-1 z-0 space-y-12 md:space-y-0 md:flex-row"
+            >
+                <!-- Left item -->
+                <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h1
+                    class="max-w-md text-black text-4xl font-bold text-center md:text-5xl md:text-left"
+                >
+                    We are all you need
+                </h1>
+                <p class="max-w-sm text-black text-center md:text-left">
+                    At MMA Digital, we are dedicated to helping companies find the right talent for their needs and 
+                    helping job seekers find their dream jobs.As a leading recruitment agency, we specialize in matching the 
+                    best candidates with the right employers in various industries, including Website Development, Low Level 
+                    and Digital Marketing.
+                </p>
+                <div class="flex justify-center md:justify-start">
+                    <div class="mt-5"> 
+                        <button class="bg-blue-500 text-white px-6 p-3 hover:opacity-75">
+                            <a href="https://www.linkedin.com/in/mma-digital-8a8465263/">
+                                Connect with us
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                </div>
+                <!-- Image -->
+                <div class="md:w-1/2">
+                    <!-- <img class="sm:w-auto md:w-9/12" src="/Ste-lete/src/assets/4565.jpg" alt="" /> -->
+                    <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
+                            <div class="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg w-[100vw] md:w-[40vw]">
+                                <form class="w-full">
+                                    <div class="mb-6">
+                                        <input
+                                            type="text"
+                                            placeholder="Your Name"
+                                            class="
+                                            w-full
+                                            rounded
+                                            py-3
+                                            px-[14px]
+                                            text-body-color text-base
+                                            border border-[f0f0f0]
+                                            outline-none
+                                            focus-visible:shadow-none
+                                            focus:border-primary
+                                            "
+                                            />
+                                    </div>
+                                    <div class="mb-6">
+                                        <input
+                                            type="email"
+                                            placeholder="Your Email"
+                                            class="
+                                            w-full
+                                            rounded
+                                            py-3
+                                            px-[14px]
+                                            text-body-color text-base
+                                            border border-[f0f0f0]
+                                            outline-none
+                                            focus-visible:shadow-none
+                                            focus:border-primary
+                                            "
+                                            />
+                                    </div>
+                                    <div class="mb-6">
+                                        <input
+                                            type="text"
+                                            placeholder="Your Phone"
+                                            class="
+                                            w-full
+                                            rounded
+                                            py-3
+                                            px-[14px]
+                                            text-body-color text-base
+                                            border border-[f0f0f0]
+                                            outline-none
+                                            focus-visible:shadow-none
+                                            focus:border-primary
+                                            "
+                                            />
+                                    </div>
+                                    <div class="mb-6">
+                                        <textarea
+                                            rows="6"
+                                            placeholder="Your Message"
+                                            class="
+                                            w-full
+                                            rounded
+                                            py-3
+                                            px-[14px]
+                                            text-body-color text-base
+                                            border border-[f0f0f0]
+                                            resize-none
+                                            outline-none
+                                            focus-visible:shadow-none
+                                            focus:border-primary
+                                            "
+                                            ></textarea>
+                                    </div>
+                                    <div>
+                                        <button
+                                            type="submit"
+                                            class="
+                                            w-full
+                                            text-white
+                                            bg-blue-500
+                                            rounded 
+                                            p-3
+                                            transition
+                                            hover:bg-opacity-90
+                                            "
+                                            >
+                                        Send Message
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-10"></section>
+
+        <!-- Currency Check Section -->
+        <section class="container py-14 sm:space-y-30 px-6 justify-center z-0 mx-auto flex flex-col items-center sm:space-y-5 md:space-x-5 md:flex-row">
+            <div class=" flex-1 md:w-1/2 space-y-12">
+                <!-- Calendly inline widget begin -->
+                <div class="calendly-inline-widget" data-url="https://calendly.com/mmadigital/30min" style="min-width:400px;height:130vh;overflow: hidden;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" style="overflow: hidden;" async></script>
+                <!-- Calendly inline widget end -->
+            </div>
+
+            <div class="flex-1 mt-5 h-[120vh] md:mt-0 md:mb-32">
+                <div class="flex flex-col space-y-32">
+                    <div class="w-full px-4">
+                        <h1 class="font-bold text-center text-black text-4xl md:text-left">Book a meeting with us</h1>
+                        <p class="text-center text-black pt-3 md:text-left">
+                            This is a free, and non-binding call with MMA Digital. Our team of experienced recruiters understands the unique challenges that businesses and job seekers face,
+                        </p>
+                        <p class="text-center text-black pt-3 md:text-left">
+                            and we are committed to providing customized solutions to meet their needs. We use the latest recruitment technologies and strategies to ensure that we identify and attract the most qualified candidates for our clients job openings.
+                        </p>
+                        <p class="text-center text-black pt-3 md:text-left">
+                            In this call we will elaborate on the services we provide and how we could tailor and provide for your particular business, in order to heavily boost the growth of your business.
+                        </p>
+                        <p class="text-center text-black pt-3 md:text-left">
+                            Simply locate a time-slot that would suit your calendar, and lock it in. We are looking forward to talking to you.
+                        </p>
+                    </div>
+    
+                    <div>
+                        <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
+                            <div class="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg w-[100vw] md:w-[40vw]">
+                                <form class="w-full">
+                                    <div class="mb-6">
+                                        <input
+                                            type="text"
+                                            placeholder="Your Name"
+                                            class="
+                                            w-full
+                                            rounded
+                                            py-3
+                                            px-[14px]
+                                            text-body-color text-base
+                                            border border-[f0f0f0]
+                                            outline-none
+                                            focus-visible:shadow-none
+                                            focus:border-primary
+                                            "
+                                            />
+                                    </div>
+                                    <div class="mb-6">
+                                        <input
+                                            type="email"
+                                            placeholder="Your Email"
+                                            class="
+                                            w-full
+                                            rounded
+                                            py-3
+                                            px-[14px]
+                                            text-body-color text-base
+                                            border border-[f0f0f0]
+                                            outline-none
+                                            focus-visible:shadow-none
+                                            focus:border-primary
+                                            "
+                                            />
+                                    </div>
+                                    <div class="mb-6">
+                                        <input
+                                            type="text"
+                                            placeholder="Your Phone"
+                                            class="
+                                            w-full
+                                            rounded
+                                            py-3
+                                            px-[14px]
+                                            text-body-color text-base
+                                            border border-[f0f0f0]
+                                            outline-none
+                                            focus-visible:shadow-none
+                                            focus:border-primary
+                                            "
+                                            />
+                                    </div>
+                                    <div class="mb-6">
+                                        <textarea
+                                            rows="6"
+                                            placeholder="Your Message"
+                                            class="
+                                            w-full
+                                            rounded
+                                            py-3
+                                            px-[14px]
+                                            text-body-color text-base
+                                            border border-[f0f0f0]
+                                            resize-none
+                                            outline-none
+                                            focus-visible:shadow-none
+                                            focus:border-primary
+                                            "
+                                            ></textarea>
+                                    </div>
+                                    <div>
+                                        <button
+                                            type="submit"
+                                            class="
+                                            w-full
+                                            text-white
+                                            bg-blue-500
+                                            rounded 
+                                            p-3
+                                            transition
+                                            hover:bg-opacity-90
+                                            "
+                                            >
+                                        Send Message
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            </div>
+        </section>
+
+        <script src="/script.js"></script>
+    </body>
+</html>
