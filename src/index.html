@@ -95,7 +95,14 @@
                     <!-- <img class="sm:w-auto md:w-9/12" src="/Ste-lete/src/assets/4565.jpg" alt="" /> -->
                     <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
                             <div class="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg w-[100vw] md:w-[40vw]">
-                                <form class="w-full" name="contact" method="POST" data-netlify="true">
+                                <form
+                                 class="w-full" 
+                                 name="contact"
+                                 method="POST" 
+                                 netlify-honeypot="bot-field" 
+                                 data-netlify-recaptcha="true" 
+                                 data-netlify="true">
+                                    
                                     <div class="mb-6">
                                         <input
                                             name="Name"
@@ -169,8 +176,17 @@
                                             "
                                             ></textarea>
                                     </div>
+
+                                    <p class="py-3">
+                                        <label>
+                                            Don&apos;t fill this out if you&apos;re human: <input class="rounded border border-[f0f0f0] p-3 h-8" name="bot-field" />
+                                        </label>
+                                        <div class="py-3" data-netlify-recaptcha="true"></div>
+                                    </p>
+
                                     <div>
-                                        <button
+                                        <input
+                                            value="Send Message"
                                             type="submit"
                                             class="
                                             w-full
@@ -181,9 +197,7 @@
                                             transition
                                             hover:bg-opacity-90
                                             "
-                                            >
-                                        Send Message
-                                        </button>
+                                            />
                                     </div>
                                 </form>
                             </div>
@@ -224,9 +238,17 @@
                     <div>
                         <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
                             <div class="bg-white relative rounded-lg p-8 sm:p-12 w-[100vw] md:w-[40vw] md:shadow-lg">
-                                <form class="w-full">
+                                 <form
+                                 class="w-full" 
+                                 name="contact"
+                                 method="POST" 
+                                 netlify-honeypot="bot-field" 
+                                 data-netlify-recaptcha="true" 
+                                 data-netlify="true">
+                                    
                                     <div class="mb-6">
                                         <input
+                                            name="Name"
                                             type="text"
                                             placeholder="Your Name"
                                             class="
@@ -244,6 +266,7 @@
                                     </div>
                                     <div class="mb-6">
                                         <input
+                                            name="Email"
                                             type="email"
                                             placeholder="Your Email"
                                             class="
@@ -261,6 +284,7 @@
                                     </div>
                                     <div class="mb-6">
                                         <input
+                                            name="Phone Number"
                                             type="text"
                                             placeholder="Your Phone"
                                             class="
@@ -278,6 +302,7 @@
                                     </div>
                                     <div class="mb-6">
                                         <textarea
+                                            name="Message"
                                             rows="6"
                                             placeholder="Your Message"
                                             class="
@@ -294,8 +319,17 @@
                                             "
                                             ></textarea>
                                     </div>
+
+                                    <p class="py-3">
+                                        <label>
+                                            Don&apos;t fill this out if you&apos;re human: <input class="rounded border border-[f0f0f0] p-3 h-8" name="bot-field" />
+                                        </label>
+                                        <div class="py-3" data-netlify-recaptcha="true"></div>
+                                    </p>
+
                                     <div>
-                                        <button
+                                        <input
+                                            value="Send Message"
                                             type="submit"
                                             class="
                                             w-full
@@ -306,9 +340,7 @@
                                             transition
                                             hover:bg-opacity-90
                                             "
-                                            >
-                                        Send Message
-                                        </button>
+                                            />
                                     </div>
                                 </form>
                             </div>
